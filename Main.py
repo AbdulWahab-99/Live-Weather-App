@@ -77,7 +77,7 @@ if left.button("Get Weather"):
 
          # Create the plot
         fig, ax = plt.subplots(figsize=(10, 6))  # Adjust figure size
-        fig.patch.set_facecolor('#d3d3d3')  # Set a light gray background for the figure
+    
 
         # Plot the data
         ax.plot(
@@ -171,7 +171,7 @@ if right.button("Forecast"):
 
                 # Create the plot
                 fig, ax = plt.subplots(figsize=(10, 6))  # Adjust figure size
-                fig.patch.set_facecolor('#d3d3d3')  # Set a light gray background for the figure
+               
 
                 # Plot the data
                 ax.plot(
